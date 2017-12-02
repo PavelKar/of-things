@@ -10,14 +10,14 @@ $("#unitconsumpsleep").click(function() {
   switch (this.getAttribute('data-unit')) {
       case "1":
           this.setAttribute('data-unit',"0.001");
-          this.innerHTML = "uAh";
+          this.innerHTML = "&micro;A";
           console.log(
             this.getAttribute('data-unit')
           );
           break;
       case "0.001":
           this.setAttribute('data-unit',"1");
-          this.innerHTML = "mAh";
+          this.innerHTML = "mA";
           console.log(
             this.getAttribute('data-unit')
           );

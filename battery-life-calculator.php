@@ -19,7 +19,7 @@
     <div class="large-12 columns">
       <div class="callout">
         <h3>Simply enter your data in the form below!</h3>
-        <p>Inputs marked with "*" have switchable units, change with a click on it. The results will be presented automatically.</p>
+        <p>Inputs marked with a * (asterisk) have switchable units, change with a click on it. The results will be presented automatically.</p>
         <div id="solutions">
           <hr>
           <h3>Your results: </h3>
@@ -72,7 +72,7 @@
           <label>consumption during code execution</label>
           <div class="input-group">
             <input type="text" type="number" placeholder="100" class="input-group-field" name="consumpactive" id="consumpactive" />
-            <span class="input-group-label">mAh</span>
+            <span class="input-group-label">mA</span>
           </div>
         </div>
       </div>
@@ -80,8 +80,8 @@
         <div class="row collapse">
           <label>consumption in sleep mode*</label>
           <div class="input-group">
-            <input type="text" type="number" placeholder="1" class="input-group-field" name="consumpsleep" id="consumpsleep" />
-            <span class="input-group-label" id="unitconsumpsleep" data-unit="1">mAh</span>
+            <input type="text" type="number" placeholder="80" class="input-group-field" name="consumpsleep" id="consumpsleep" />
+            <span class="input-group-label" id="unitconsumpsleep" data-unit="0.001">&micro;A</span>
           </div>
         </div>
       </div>
