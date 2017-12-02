@@ -39,12 +39,13 @@
 	<div class="row">
     <div class="large-9 columns">
 			<p>This project will be gradually improved.</p>
+			<p>- 18.09.2017 code is on <a href="https://github.com/simonneutert/of-things" target="_blank">GitHub</a></p>
 			<p>- 27.06.2016 added a basic version of a protective resistor calculator</p>
 			<p>- 03.06.2016 unit switching is now support for some fields (marked with a "*")</p>
 			<p>- 03.06.2016 added voltage divider calculator</p>
     </div>
   </div>
-	
+
   <div class="spacer">
   </div>
 
