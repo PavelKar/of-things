@@ -101,7 +101,7 @@
         <div class="row collapse">
           <label>discharge safety</label>
           <div class="input-group">
-            <input type="text" type="number" placeholder="20" class="input-group-field" name="powerliponet" id="powerliponet" />
+            <input type="text" type="number" placeholder="20" class="input-group-field" name="powerliposafe" id="powerliposafe" />
             <span class="input-group-label">%</span>
           </div>
         </div>
