@@ -56,8 +56,11 @@ class CalcBatteryLife
         $(".runtimedaysest").html("between one and two days")
       $(".runtimehoursest").html(@runtimehoursest().toString() + " hours")
       $(".powerest").html(@roundoff(@powerest()).toString() + " mAh")
+      $.scrollTop $("#solutions").height()
+      return
     else
       $("#solutions").fadeOut()
+      return
 
 ### the jQuery Part ###
 # enable consumption unit switching
