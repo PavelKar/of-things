@@ -12,6 +12,8 @@
       <p class="subheader">
 				As a first tool one can now calculate the estimated battery life for your next diy electronics project. This can be used for Raspberry Pis, Arduinos, ESP8266 Wifi modules like Wemos, Huzzahs, Feathers and so on.
 			</p>
+			<h6>This website is open to contributions.</h6>
+			<p class="subheader"><a href="http://www.trojanischeresel.de" target="_blank">Contact me</a> and/or contribute to the codebase <a href="https://github.com/simonneutert/of-things" target="_blank">on GitHub</a>!
     </div>
   </div>
 
