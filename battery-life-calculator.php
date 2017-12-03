@@ -122,14 +122,22 @@
   </div>
 
 	<div class="row text-center">
-		<p>Video with explanations of a use case made by the incredible <a href="https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ" target="_blank">Andreas Spiess</a></p>
+		<p>Videos with explanations of a use case made by the incredible <a href="https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ" target="_blank">Andreas Spiess</a></p>
 		<div class="flex-video widescreen">
 	  	<iframe width="420" height="315" src="https://www.youtube.com/embed/IYuYTfO6iOs" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 
+	<div class="row text-center">
+		<div class="flex-video widescreen">
+	  	<iframe width="420" height="315" src="https://www.youtube.com/embed/6NsBN42B80Q" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+
 	<div class="spacer">
 	</div>
+
+
 
 	<script src="js/battery-life-calculator.js"></script>
 
