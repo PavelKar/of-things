@@ -8,7 +8,7 @@ var unitconsumpsleep;
 
 $("#unitconsumpsleep").click(function() {
   switch (this.getAttribute('data-unit')) {
-      case "1":
+      case "1.0":
           this.setAttribute('data-unit',"0.001");
           this.innerHTML = "&micro;A";
           console.log(
@@ -16,7 +16,7 @@ $("#unitconsumpsleep").click(function() {
           );
           break;
       case "0.001":
-          this.setAttribute('data-unit',"1");
+          this.setAttribute('data-unit',"1.0");
           this.innerHTML = "mA";
           console.log(
             this.getAttribute('data-unit')
@@ -65,7 +65,7 @@ var powerlipo = function() { return calcpowerlipo(powerlipobruvalue, powerlipone
 var runs = function() { return calcruns(timerunvalue, timesleepvalue); };
 var runshour = function() { return calcrunshour(timerunvalue, timesleepvalue);};
 var powerrun = function() { return calcpowerrun(timerunvalue, timesleepvalue);};
-var powersleep = function() { return calcpowersleep(timerunvalue, timesleepvalue*unitconsumpsleep);};
+var powersleep = function() { return calcpowersleep(timerunvalue, timesleepvalue);};
 var powerest = function() { return calcpowerest(powerrun(), consumpactivevalue, powersleep(), consumpsleepvalue*unitconsumpsleep);};
 var runtimehoursest = function() { return parseInt(powerlipo() / powerest());};
 var runtimedaysest = function() { return parseInt(runtimehoursest() / 24);};
