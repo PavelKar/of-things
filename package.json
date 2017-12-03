@@ -1,0 +1,25 @@
+{
+  "name": "of-things",
+  "version": "1.0.0",
+  "description": "__simply upload this repository to a simple plain php webserver__",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "coffeescript": "^2.0.3"
+  },
+  "scripts": {
+    "start": "coffee --output js/ --compile --transpile --inline-map coffeescript/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonneutert/of-things.git"
+  },
+  "author": "Simon neutert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonneutert/of-things/issues"
+  },
+  "homepage": "https://github.com/simonneutert/of-things#readme"
+}
