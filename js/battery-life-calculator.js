@@ -7,7 +7,7 @@ var powerlipobruvalue;
 var powerliposafevalue;
 var unitconsumpsleep;
 var sleepconsump;
-
+var solutionHeight;
 
 var getValues = function() {
   timerunvalue = parseFloat($("#timerun").val().replace(/\,/g, '.'));
@@ -123,6 +123,8 @@ var dothemath = function() {
 
     $(".runtimehoursest").html(runtimehoursest().toString() + " hours");
     $(".powerest").html(roundoff(powerest()).toString() + " mAh");
+    $.scrollTop($("#solutions").height());
+
   } else {
     $("#solutions").fadeOut();
   }
