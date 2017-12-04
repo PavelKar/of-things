@@ -10,7 +10,7 @@
     <div class="large-12 columns">
       <h1>simple calculator for estimating a (LiPo) battery's life</h1>
       <p class="subheader">
-				Calculate the estimated battery life for your next diy electronics project. This can be used for Raspberry Pis, Arduinos, ESP8266 Wifi modules like Wemos, Huzzahs, Feathers and so on. If your device does not sleep, then simply set both software parameters to "1". Of course the consumption whilst active and sleeping should be equal. Results may vary from real life :-P
+				Calculate the estimated battery life for your next diy electronics project. This can be used for Raspberry Pis, Arduinos, ESP8266 Wifi modules like Wemos, Huzzahs, Feathers and so on. If your device does not sleep, then simply set the sleep time to "0". Results may vary from real life :-P
 			</p>
     </div>
   </div>
